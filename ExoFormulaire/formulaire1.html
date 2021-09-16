@@ -15,8 +15,8 @@
             <input type="radio" id="Mme ou Mlle" name="drone" value="Mme ou Mlle"
             checked>
             <label for="Mme ou Mlle">Mme ou Mlle</label><br></span>
-        <span>Nom : <input><br></input></span>
-        <span>Prénom : <input><br></input></span>
+        <span>Nom : <input required minlength="2" maxlength="10"><br></input></span>
+        <span>Prénom : <input required minlength="2" maxlength="10"><br></input></span>
         <span>Date de Naissance : <select name="date" size="1">
         <option>1
         <option>2
@@ -64,7 +64,7 @@
                 <option>11
                 <option>12
         </select>
-        <span>Année : <input><br></input></span>
+        <span>Année : <input required minlength="4" maxlength="4" type="number"><br></input></span>
     </span>
     </div>
 
