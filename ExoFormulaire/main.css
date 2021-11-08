@@ -1,9 +1,25 @@
 div {
-	text-align:center;
+	text-align:left;
 	}
 
+input.test	{
+	width: 90px;
 
-div.formulaire {
-	width:150;
-	height:150px;
 }
+
+input.email	{
+	width: 275px;
+}
+input.ville {
+	width: 135px;
+}
+
+div.shadowbox {
+	width: 31em;
+	border: 1px solid #333;
+	padding: 16px 24px;
+  }
+  span {
+	line-height: 25px;
+
+  }
